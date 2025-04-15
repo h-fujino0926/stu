@@ -28,4 +28,4 @@ style="height: 10rem; background-color: #dbb;">
 </div>
 </body>
 </html>
->>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+
