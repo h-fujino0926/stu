@@ -13,43 +13,50 @@ public class TestListSubject {
 	private String classNum;
 
 	private Map<Integer,Integer> points;
-	
+
 	public int getEntYear(){
 		return entYear;
 	}
-	
+
 	public void setEntYear(int entYear){
 		this.entYear=entYear;
 	}
-	
+
 	public String getStudentNo(){
 		return studentNo;
 	}
-	
+
 	public void setStidentNo(String studentNo){
 		this.studentNo=studentNo;
 	}
-	
+
 	public String getStudentName(){
 		return studentName;
 	}
-	
+
 	public void setStudentName(String studentName){
 		this.studentName=studentName;
 	}
-	
+
 	public String getClassNum(){
 		return classNum;
 	}
-	
+
 	public void setClassNum(String classNum){
 		this.classNum=classNum;
 	}
-	
-	public Map getPoints(Map points){
+
+	public Map<Integer,Integer> getPoints(){
 		return points;
 	}
-	
-	public void setPoints
+
+	public void setPoints(Map<Integer,Integer> points){
+		this.points=points;
+	}
+
+//未完成
+//getPoint,putPoint
+//未実装
+
 
 }
