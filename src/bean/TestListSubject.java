@@ -53,15 +53,18 @@ public class TestListSubject {
 	public void setPoints(Map<Integer,Integer> points){
 		this.points=points;
 	}
-	
-//	
+
+
 //	public String getPoint(key:int){
 //		return point;
 //	}
-
+//	public void putPoint(int key,int value){
+//		this.key=key;
+//		this.value=value;
+//	}
+//
 //未完成
 //getPoint,putPoint
-//未実装
 
 
 }
