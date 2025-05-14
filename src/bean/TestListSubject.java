@@ -26,7 +26,7 @@ public class TestListSubject {
 		return studentNo;
 	}
 
-	public void setStidentNo(String studentNo){
+	public void setStudentNo(String studentNo){
 		this.studentNo=studentNo;
 	}
 
