@@ -1,0 +1,57 @@
+/* sidebar.css */
+
+.sidebar {
+    background-color: #f8f8f8; /* 例: サイドバーの背景色 */
+    width: 200px; /* 例: サイドバーの幅 */
+    padding: 20px;
+    box-sizing: border-box; /* paddingをwidthに含める */
+    border-right: 1px solid #eee; /* 例: 右側のボーダー */
+    /* 必要に応じてposition: fixed; height: 100%; top: 0; left: 0; を追加して固定表示 */
+}
+
+.navigation ul {
+    list-style: none; /* リストの点を非表示 */
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    margin-bottom: 10px; /* 各項目の下の余白 */
+}
+
+.navigation li a,
+.navigation li label {
+    display: block; /* リンクとラベルをブロック要素にする */
+    padding: 8px 15px;
+    text-decoration: none; /* リンクの下線を非表示 */
+    color: #333; /* リンクとラベルの文字色 */
+    border-radius: 5px; /* 角を丸くする */
+}
+
+.navigation li a:hover {
+    background-color: #e0f2f7; /* ホバー時の背景色 */
+    color: #007bff; /* ホバー時の文字色 */
+}
+
+.navigation li label {
+    font-weight: bold; /* ラベルを太字にする */
+    cursor: pointer; /* カーソルをポインタにする */
+}
+
+.navigation li ul {
+    margin-left: 15px; /* サブメニューの左インデント */
+    margin-top: 5px;
+}
+
+.navigation li ul li {
+    margin-bottom: 5px; /* サブメニュー各項目の下の余白 */
+}
+
+.navigation li ul li a {
+    background-color: #fff; /* サブメニューリンクの背景色 */
+    border: 1px solid #ddd; /* サブメニューリンクのボーダー */
+}
+
+.navigation li ul li a:hover {
+    background-color: #f0f0f0; /* サブメニューリンクのホバー時の背景色 */
+}

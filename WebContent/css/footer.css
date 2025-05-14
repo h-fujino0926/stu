@@ -1,0 +1,23 @@
+.footer {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+    padding: 10px 0; /* Add some padding above and below the text */
+    text-align: center; /* Center the text horizontally */
+    width: 100%; /* Make the footer span the full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    bottom: 0; /* Align the footer to the bottom */
+}
+
+.copyright {
+    margin: 5px 0; /* Add some vertical margin to the copyright lines */
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+.copyright.upper {
+    /* You can add specific styling for the upper copyright if needed */
+}
+
+.copyright.lower {
+    /* You can add specific styling for the lower copyright if needed */
+}

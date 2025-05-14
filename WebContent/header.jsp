@@ -1,16 +1,22 @@
-
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>得点管理システム</title>
-    <link rel="stylesheet" type="text/css" href="<c:url value='/css/style.css'/>">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<body>
+    <div class="header">
+        <h1>得点管理システム</h1>
+        <% if (session.getAttribute("loggedInUser") != null) { %>
+            <span class="user-info">
+                <%= session.getAttribute("loggedInUser") %>様
+            </span>
+            <span class="logout">
+                <a href="logout.jsp">ログアウト</a>
+            </span>
+        <% } %>
+    </div>
 
-
-<!-- 上部タイトルエリア -->
-<div class="header-wrapper">
-    <h1>学生管理</h1>
-</div>
+    </body>
+</html>
