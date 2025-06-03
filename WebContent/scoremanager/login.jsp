@@ -1,12 +1,39 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+  <meta charset="UTF-8">
+  <title>得点管理システム</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <h2>得点管理システム</h2>
+    <form>
+      <div class="form-group">
+        <label for="id">ID</label>
+        <input type="text" id="id" name="id" value="admin">
+      </div>
+      <div class="form-group">
+        <label for="password">パスワード</label>
+        <input type="password" id="password" name="password" value="Passwd06112023!">
+      </div>
+      <div class="checkbox-group">
+        <input type="checkbox" id="chk_d_ps" name="chk_d_ps" onclick="togglePassword()">
+        <label for="chk_d_ps">パスワードを表示</label>
+      </div>
+      <button type="submit" name="login">ログイン</button>
+    </form>
+    <footer>
+      © 2023 TIC<br>大原学園
+    </footer>
+  </div>
 
+  <script>
+    function togglePassword() {
+      const passwordField = document.getElementById("password");
+      passwordField.type = passwordField.type === "password" ? "text" : "password";
+    }
+  </script>
 </body>
 </html>
