@@ -1,4 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <faceted-project>
+<<<<<<< HEAD
+=======
+  <runtime name="Tomcat8 (Java8)"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+  <fixed facet="jst.web"/>
+  <fixed facet="wst.jsdt.web"/>
+  <fixed facet="java"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  <fixed facet="java"/>
+  <fixed facet="jst.web"/>
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+  <fixed facet="wst.jsdt.web"/>
+  <fixed facet="jst.web"/>
+  <fixed facet="java"/>
+=======
+  <fixed facet="java"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+=======
+=======
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+=======
+=======
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+  <fixed facet="jst.web"/>
+  <fixed facet="wst.jsdt.web"/>
+>>>>>>> branch 'master' of https://github.com/y-kawahigashi/stu.git
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/y-kawahigashi/stu.git
+=======
+<<<<<<< HEAD
+=======
+  <fixed facet="jst.web"/>
+  <fixed facet="wst.jsdt.web"/>
+  <fixed facet="java"/>
+>>>>>>> branch 'master' of https://github.com/t-jozaki34/stu.git
+=======
+=======
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+=======
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
+>>>>>>> branch 'master' of https://github.com/h-fujino0926/stu.git
   <installed facet="java" version="1.8"/>
 </faceted-project>
