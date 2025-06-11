@@ -60,7 +60,7 @@
      						<th>学生番号</th>
      						<th>氏名</th>
      						<th>クラス</th>
-     						<th clas="text-center">在学中</th>
+     						<th class="text-center">在学中</th>
      						<th></th>
      						<th></th>
      					</tr>
