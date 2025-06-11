@@ -34,7 +34,7 @@ public class H2Init {
 	        e.printStackTrace();
 	    }
 	}
-
+//
     private static void executeSqlFile(Connection conn, String filePath) throws SQLException, IOException {
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath));
              Statement stmt = conn.createStatement()) {

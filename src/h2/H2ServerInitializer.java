@@ -33,7 +33,7 @@ public class H2ServerInitializer implements ServletContextListener {
                 System.out.println("H2 データベースは既に起動しています（" + JDBC_URL + "）。新しく起動しません。");
                 return;
             }
-
+//
             try {
                 System.out.println("H2 データベースを起動します...");
                 server = Server.createTcpServer("-tcp", "-tcpAllowOthers", "-tcpPort", "9092").start();
